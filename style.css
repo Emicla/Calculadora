@@ -42,7 +42,7 @@ body {
 }
 
 .teclas p:active {
-    background-color: gray;
+    background-color: #1086e7;
     color: white;
 }
 
