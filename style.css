@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #EEEEEE;
+}
+
+.calculadora {
+    width: 500px;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 18px;
+    background: rgb(110, 149, 153);
+}
+
+.visor {
+    border: 1px solid #000000;
+    background: #7cb9eb;
+    color: #3c3636;
+    padding: 10px 10px 0 0;
+    margin-bottom: 9px;
+    font-size: 4em;
+    text-align: right;
+    height: 80px;
+    overflow: overlay;
+}
+
+.teclas p {
+    display: inline-block;
+    border: 1px solid black;
+    font-size: 16px;
+    font-weight: bold;
+    background: #95c3e9;
+}
+
+.teclas p:hover {
+    cursor: pointer;
+    background-color: #6db1e9;
+}
+
+.teclas p:active {
+    background-color: gray;
+    color: white;
+}
+
+.operadores {
+    display: inline-block;
+}
+
+.operadores p {
+    display: inline-block;
+    padding: 39px 48px;
+    margin: 0 23px 10px 0;
+}
+
+.operadores p:last-child {
+    margin-right: 0;
+}
+
+.number {
+
+    border: 1px solid black;
+    width: 368px;
+    display: inline-block;
+    padding: 10px;
+}
+
+.number p {
+    margin: 4px;
+    text-align: center;
+    width: 110px;
+    height: 79px;
+    line-height: 80px;
+}
+
+.comandos {
+    float: right;
+}
+
+.comandos p {
+    width: 20px;
+    text-align: center;
+    display: block;
+    margin-bottom: 7px;
+    padding: 38px;
+}
+
+.comandos p:last-child {
+    padding: 73px 38px;
+}
+
+.div-tabuada {
+    position: fixed;
+    right: 50px;
+    top: 12px;
+}
+
+summary {
+    border: 1px solid #000000;
+    padding: 8px;
+    margin-bottom: 5px;
+    background-color: #AAAAAA;
+    color: black;
+}
+
+summary:hover {
+    cursor: pointer;
+}
+
+#tabuada {
+    list-style: none;
+    text-align: justify;
+    padding: 5px 10px;
+    border: 1px solid #000000;
+    font-size: 18px;
+}
+
+.display-none {
+    display: none;
+}
